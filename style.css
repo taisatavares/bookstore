@@ -1,0 +1,161 @@
+
+
+.nav-item a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.livros{
+    width: 100%;
+   
+}
+
+
+
+.text{
+    position: absolute;
+    bottom: 600px;
+    /*right: 40%;*/
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text p {
+    text-align: center;
+}
+
+/*Rodapé*/
+.rodape{
+    height: 50px;
+    background-color: #212529;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+
+/*Página suspense*/
+
+body{
+    
+    background-color: #212529;
+    
+}
+
+.suspense {
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 3px solid #ccc;
+    
+}
+
+.imagens{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.galeria{
+    border: 1px solid #ccc;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    color: black;
+    text-align: justify;
+    
+}
+
+.pictures{
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #161515;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .back{
+    margin-top: 50px;
+  }
+
+  .back p a {
+    text-decoration: none;
+    color: #ddd;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+  } 
+
+  @media screen and (max-width: 500px){
+    
+
+    .pictures{
+        
+        width: 100%;
+        
+    }
+
+    .suspense {
+        margin-top: 30px;
+        
+    }
+
+    
+
+  }
+    
+  
+
